@@ -1,0 +1,5 @@
+Thing I have learnt from this lesson:
+
+1. transform can rotate an element by degrees, e.g. 90, 180.
+2. transform origin 100% keeps the element one sided, meaning only one side will move with the given degrees.
+3. elements can be directly styled by setting them to const and calling _.style in a function.
