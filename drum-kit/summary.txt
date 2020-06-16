@@ -1,0 +1,11 @@
+Things I learnt:
+1. window.addEventListener is called first to start the script with a function name 'playSound'
+2. document.querySelector is used to pick the audio and data-key values.
+3. If there are no audio found (if a key pressed which doesn't have data-key), returned
+4. To restart the sound currentTime is set to 0 sothat if a key is pressed twice or more, it restarts the sound.
+5. audio.play() directly works to play an audio.
+6. when the audio is being played, it's added to a class named 'playing' which has 3 additional css to scale, give border and box shadow.
+7. An 'transitionend' listener is added to all the keys with a function which means when an element finishes transitioning, it calls the 'removeTransform' function.
+8. That event generates 6 different transitions, for e.g. box-shadow transition, scale transition. To pick only transform, others are ignored.
+9. Finally, the previously added class 'playing' is removed.
+ 
