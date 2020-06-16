@@ -1,0 +1,9 @@
+Typically, we have to reload a page to render it's changed css. 
+In this lesson, I have learnt to control and update css items using javascript without reloading the page.
+1. Set a variable name in css, `--base, --spacing` etc and set some values with these in the root. 
+2. refer to those variable and set with a property, for e.x. `padding: var(--spacing)`
+3. All css elements and classes can be set with same variables. As a result, on updating the variable, updates all elements as well.
+
+4. Select all inputs using document.querySelectorAll.
+5. Add eventListener('change') and ('mousemove') with a function to update the vars.
+6. In the function, use document.documentElement.style.setProperty to set the changed value relevant to the right property.
