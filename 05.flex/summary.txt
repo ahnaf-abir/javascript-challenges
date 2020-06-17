@@ -1,0 +1,5 @@
+Things I learnt from this lesson:
+1. Flex box can be oriented using flex-direction
+2. flex: 1 means content will have qually distributed width
+3. transform: translateY/translateX() with a value of -100 to 100% can move the item in y and x direction respectively. Can be added to a class to get called by javascript.
+
