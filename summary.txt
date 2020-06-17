@@ -1,0 +1,5 @@
+In this lesson, I learnt:
+1. how to sort an array with 2 given values
+2. map, sort etc can be worked in a single line
+3. reduce needs a starting value which can be given after the closing `}`
+
