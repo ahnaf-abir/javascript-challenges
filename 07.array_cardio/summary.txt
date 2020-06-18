@@ -1,0 +1,2 @@
+1. Splice can be used to trim/delete an item from an array. 
+2. But have to find the index of that element first.
