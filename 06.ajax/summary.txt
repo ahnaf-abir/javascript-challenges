@@ -1,0 +1,5 @@
+Things I have leart from this:
+1. fetch is async, console logging won't give any value, better to push the data in an array.
+2. Arrays data can be looped through and find match using `.match` and a regrex, which will be new RegExp(somethingToMatch, 'gi'). Here gi represents global and insensitive, global allows to look from all answers, and i ignores captialisation.
+3. Updated array can be pushed back to html using `element.innenHTML` and setting the new array. However, might have to map before doing that.
+4. `keyup` event listener can be used on input and forms to check for instant validation
